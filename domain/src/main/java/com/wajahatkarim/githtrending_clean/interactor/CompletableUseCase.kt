@@ -10,12 +10,12 @@ import io.reactivex.schedulers.Schedulers
 abstract class CompletableUseCase<in Params> constructor(
         private val postExecutionThread: PostExecutionThread)
 {
-    protected abstract fun buildUseCaseObservable(params: Params? = null): Completable
+    abstract fun buildUseCaseCompletable(params: Params? = null): Completable
 
     private val disposables = CompositeDisposable()
 
     open fun execute(observer: DisposableCompletableObserver, params: Params? = null) {
-        val completable = this.buildUseCaseObservable(params)
+        val completable = this.buildUseCaseCompletable(params)
                 .subscribeOn(Schedulers.io())
                 .observeOn(postExecutionThread.scheduler)
         addDisposable(completable.subscribeWith(observer))
