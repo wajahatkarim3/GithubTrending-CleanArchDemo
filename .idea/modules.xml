@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/domain/Domain.iml" filepath="$PROJECT_DIR$/domain/Domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/GithubTrending-CleanArchDemo.iml" filepath="$PROJECT_DIR$/GithubTrending-CleanArchDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
     </modules>
   </component>
 </project>

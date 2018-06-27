@@ -1,10 +1,9 @@
-package com.wajahatkarim.githtrendingclean.interactor.bookmark
+package com.wajahatkarim.githtrending_clean.interactor.bookmark
 
-import com.wajahatkarim.githtrendingclean.domain.PostExecutionThread
-import com.wajahatkarim.githtrendingclean.interactor.CompletableUseCase
-import com.wajahatkarim.githtrendingclean.repository.ProjectsRepository
+import com.wajahatkarim.githtrending_clean.domain.PostExecutionThread
+import com.wajahatkarim.githtrending_clean.interactor.CompletableUseCase
+import com.wajahatkarim.githtrending_clean.repository.ProjectsRepository
 import io.reactivex.Completable
-import io.reactivex.internal.operators.completable.CompletableUsing
 import javax.inject.Inject
 
 class UnbookmarkProject @Inject constructor(

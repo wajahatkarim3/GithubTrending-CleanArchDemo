@@ -1,4 +1,4 @@
-package com.wajahatkarim.githtrendingclean.domain
+package com.wajahatkarim.githtrending_clean.domain
 
 import io.reactivex.Scheduler
 

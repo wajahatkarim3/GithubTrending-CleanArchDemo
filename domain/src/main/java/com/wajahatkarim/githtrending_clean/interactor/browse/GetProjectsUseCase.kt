@@ -1,11 +1,10 @@
-package com.wajahatkarim.githtrendingclean.interactor.browse
+package com.wajahatkarim.githtrending_clean.interactor.browse
 
-import com.wajahatkarim.githtrendingclean.domain.PostExecutionThread
-import com.wajahatkarim.githtrendingclean.interactor.ObservableUseCase
-import com.wajahatkarim.githtrendingclean.model.ProjectModel
-import com.wajahatkarim.githtrendingclean.repository.ProjectsRepository
+import com.wajahatkarim.githtrending_clean.domain.PostExecutionThread
+import com.wajahatkarim.githtrending_clean.interactor.ObservableUseCase
+import com.wajahatkarim.githtrending_clean.model.ProjectModel
+import com.wajahatkarim.githtrending_clean.repository.ProjectsRepository
 import io.reactivex.Observable
-import io.reactivex.internal.operators.observable.ObservableUsing
 import javax.inject.Inject
 
 class GetProjectsUseCase @Inject constructor(

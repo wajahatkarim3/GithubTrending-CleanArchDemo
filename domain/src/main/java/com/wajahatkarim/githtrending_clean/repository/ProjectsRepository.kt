@@ -1,6 +1,6 @@
-package com.wajahatkarim.githtrendingclean.repository
+package com.wajahatkarim.githtrending_clean.repository
 
-import com.wajahatkarim.githtrendingclean.model.ProjectModel
+import com.wajahatkarim.githtrending_clean.model.ProjectModel
 import io.reactivex.Completable
 import io.reactivex.Observable
 

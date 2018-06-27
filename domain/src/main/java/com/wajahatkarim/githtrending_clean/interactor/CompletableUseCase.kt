@@ -1,13 +1,10 @@
-package com.wajahatkarim.githtrendingclean.interactor
+package com.wajahatkarim.githtrending_clean.interactor
 
-import com.wajahatkarim.githtrendingclean.domain.PostExecutionThread
+import com.wajahatkarim.githtrending_clean.domain.PostExecutionThread
 import io.reactivex.Completable
-import io.reactivex.Observable
-import io.reactivex.Scheduler
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.observers.DisposableCompletableObserver
-import io.reactivex.observers.DisposableObserver
 import io.reactivex.schedulers.Schedulers
 
 abstract class CompletableUseCase<in Params> constructor(
